@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ بازی تاس‌ریزی ✨</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-dice"></i> بازی تاس‌ریزی حرفه‌ای</h1>
+        
+        <div class="player-container">
+            <div class="player" id="player1">
+                <h2><i class="fas fa-user"></i> بازیکن 1</h2>
+                <div class="score" id="player1Score">0</div>
+            </div>
+            
+            <div class="player" id="player2">
+                <h2><i class="fas fa-user"></i> بازیکن 2</h2>
+                <div class="score" id="player2Score">0</div>
+            </div>
+        </div>
+        
+        <div class="dice-container">
+            <div class="dice" id="dice1">?</div>
+            <div class="dice" id="dice2">?</div>
+        </div>
+        
+        <div class="button-group">
+            <button class="btn btn-primary" id="rollBtn">
+                <i class="fas fa-dice"></i> تاس بریز
+            </button>
+            <button class="btn btn-secondary" id="resetBtn">
+                <i class="fas fa-redo"></i> بازی جدید
+            </button>
+        </div>
+        
+        <div class="history">
+            <h3><i class="fas fa-history"></i> تاریخچه بازی</h3>
+            <div class="history-list" id="historyList">
+                <div class="history-item">بازی را شروع کنید!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
